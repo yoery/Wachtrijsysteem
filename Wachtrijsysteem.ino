@@ -8,9 +8,9 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // LCD-adres is 0x27, 16x2 scherm
 const int pirSensorPin = 4;  // PIR-sensor op digitale pin 4
 const int greenLedPin = 5;   // Groene LED op pin 5
 const int yellowLedPin = 9;  // Gele LED op pin 9
-const int redLedPin = 10;    // Rode LED op pin 10
-const int trigPin = 6;       // Ultrasone sensor Trig-pin op pin 6
-const int echoPin = 7;       // Ultrasone sensor Echo-pin op pin 7
+const int redLedPin = 6;    // Rode LED op pin 6
+const int trigPin = 3;       // Ultrasone sensor Trig-pin op pin 3
+const int echoPin = 2;       // Ultrasone sensor Echo-pin op pin 2
 
 // Variabelen
 int peopleCount = 0;          // Huidig aantal personen
